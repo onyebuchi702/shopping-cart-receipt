@@ -81,12 +81,13 @@ class App extends Component {
             <br />
           </div>
           <div>
+            <br/>
             <hr />
           </div>
           <div>
             <PromoCode
               giveDiscount={() => this.giveDiscountHandler()}
-              isDisabled= {this.disablePromoButton}/>
+              isDisabled= {this.state.disablePromoButton}/>
           </div>
         </Row>
       </div>
